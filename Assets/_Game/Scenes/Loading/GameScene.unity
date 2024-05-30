@@ -261,8 +261,8 @@ Camera:
   m_GameObject: {fileID: 615795565}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.6468049, g: 0.7071145, b: 0.8018868, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -360,7 +360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8068837163610797119, guid: ed6ce976afc56df4b9168cae275c4296, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -2160
       objectReference: {fileID: 0}
     - target: {fileID: 8068837163610797119, guid: ed6ce976afc56df4b9168cae275c4296, type: 3}
       propertyPath: m_SizeDelta.y
@@ -444,6 +444,10 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 458092129643154031, guid: 7f7d688cbe8281e44b0b4648e07db12c, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 458092129643154031, guid: 7f7d688cbe8281e44b0b4648e07db12c, type: 3}
     - target: {fileID: 3925669234669641527, guid: 7f7d688cbe8281e44b0b4648e07db12c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -576,6 +580,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5210925805078863331, guid: 7f7d688cbe8281e44b0b4648e07db12c, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 5210925805078863331, guid: 7f7d688cbe8281e44b0b4648e07db12c, type: 3}
+    - target: {fileID: 8469056427338521231, guid: 7f7d688cbe8281e44b0b4648e07db12c, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8469056427338521231, guid: 7f7d688cbe8281e44b0b4648e07db12c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -859,6 +871,10 @@ PrefabInstance:
     - target: {fileID: 573255311888981929, guid: b36d6aa8ccfcd8e4b9435e23200d2efe, type: 3}
       propertyPath: m_Name
       value: ToastManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 573255312386428850, guid: b36d6aa8ccfcd8e4b9435e23200d2efe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
